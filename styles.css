@@ -1,0 +1,59 @@
+h1{
+    font-size:26px;color:brown; text-align: center;
+}
+nav {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 10px 0;
+    margin-right: 0%;
+}
+
+nav>ul {
+    text-align: right;
+}
+
+nav>ul>li {
+    display: inline-block;
+}
+
+nav ul li a {
+    padding: 18px;
+    margin-right: 0;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color:blanchedalmond;
+}
+
+nav>ul>li>a:hover {
+    box-shadow: 0 0 10px greenyellow, inset 0 0 1px goldenrod;
+    background: green;
+    color:lawngreen
+}
+
+#home{
+    height: 1000px;
+}
+#about{
+    height:1000px;
+}
+#project{
+    height:1000px;
+}@media screen and (min-width: 480px) {
+    body {
+        background-color: black;
+        color: white;
+    }.column {
+        width: 220px;
+        float: left;
+        padding: 15px;
+      }
+}
+table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  th, td {
+    padding: 5px;
+    text-align: left;
+  }
